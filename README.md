@@ -1,5 +1,9 @@
 # panl — 多网盘分享直链提取器
 
+![CI](https://github.com/sunday-lil/panl/actions/workflows/ci.yml/badge.svg)
+![license](https://img.shields.io/badge/license-MIT-blue)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+
 一个本地 CLI：丢进去一个分享链接，吐回**能直接下载的直链 + 必须携带的请求头**，顺带支持
 直接下载、导出 aria2/curl/wget 脚本、JSON 结构化输出。
 
