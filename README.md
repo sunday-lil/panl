@@ -190,10 +190,10 @@ python -m panl endpoints reset                   # 回到内置默认
 
 ## 2. 安装
 
-零依赖（只要 `requests`，网上盘都不需要）：
+依赖只有一个包：
 
 ```bash
-pip install requests
+pip install -r requirements.txt     # 只有 requests
 git clone <this-repo> && cd <repo>
 python -m panl doctor      # 自检：python / requests / cookie / 网络
 python -m panl providers   # 看支持列表
