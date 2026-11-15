@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地研究资料：第三方样本与版权内容，不随仓库发布
+_research/
+
+# 运行产物
+downloads/
+cookies.json
+*.log
+*.bak.*
+.DS_Store
+Thumbs.db
