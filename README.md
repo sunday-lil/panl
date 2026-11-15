@@ -10,6 +10,9 @@
 python -m panl resolve "https://www.alipan.com/s/xxxx" --export aria2
 ```
 
+> 配套项目：[**grabdown**](https://github.com/sunday-lil/grabdown) —— IDM 式多线程下载器 + 浏览器扩展。
+> panl 负责「链接 → 直链」，grabdown 负责「直链 → 文件」；GUI 里点「下载」就是交给它。
+
 > **TL;DR (EN)** — A local, no-backend extractor for 10 Chinese netdisk services:
 > paste a share link, get a **direct download URL plus the exact headers it needs**
 > (Referer / UA / Cookie). Ships a desktop GUI (Chromium `--app` window), a CLI, a small
